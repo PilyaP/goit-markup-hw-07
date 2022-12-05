@@ -9,7 +9,7 @@
         line-height: 1.3636; 
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: var(--white);
+        color: $white;
         width: 696px;
         margin-left: auto;
         margin-right: auto;
@@ -26,25 +26,4 @@
         background-size: cover;
         margin: 0 auto;
         }
-    
-    .button-section-index
-    {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    background: var(--blue);
-    color: var(--white);
-    border-radius: 4px;
-    border: none;
-    padding: 10px 32px;
-    min-width: 216px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    }
     

@@ -1,11 +1,15 @@
 @import "./utils/_variables.scss";
 @import './base/reset';
+@import './utils/placeholder';
+@import './utils/mixins';
+@import './components/btn';
+@import './components/contacts';
 @import './utils/hide';
 @import './components/container';
 @import "./components/_logo.scss";
 @import "./components/_header.scss";
 @import "./components/hero.scss";
-@import './components/perevagu';
+@import './components/benefits';
 @import './components/box';
 @import './components/team';
 @import './components/clients';

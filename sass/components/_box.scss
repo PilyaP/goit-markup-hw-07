@@ -3,10 +3,7 @@
     padding-top: 0;    
     }
     
-.third-pad
-{
-padding-top: 0;
-}
+
 
 
 .section-title-text
@@ -16,42 +13,40 @@ line-height: 1.1666;
 margin-bottom: 50px;
 text-align: center;
 }
-.fon
-{
-    background-color: var(--botton-two);
-}
-.gap-list
-{
-    display: flex;
-    gap: 30px;
-}
 
-.box-trumb
+.box
+{
+    @extend .gap;
+    .box__trumb
 {position: relative;
 
 }
-.box-text {
+&__text {
     font-weight: 700;
     line-height: calc(16 / 14);
     text-align: center;
     text-transform: uppercase;
-    color: var(--white)
+    color: $white;
 
 }
 
-.box-block {
+&__block {
     position: absolute;
     left: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .display;
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
 }
     
-.box-item
+&__item
 {
     width: calc((100% - 60px)/3);
 }
+&__pad
+{
+padding-top: 0;
+}
+}
+
