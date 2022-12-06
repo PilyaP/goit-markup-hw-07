@@ -42,7 +42,7 @@ address {
   font-style: normal;
 }
 
-.display, .footer-soc-link, .box__block, .benefits__icon, .button-modal, .hero__button {
+.display, .footer-soc-link, .clients__link, .box__block, .benefits__icon, .button-footer, .button-modal, .hero__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +54,7 @@ address {
           align-items: center;
 }
 
-.gap, .clients, .box, .port, .team, .benefits {
+.gap, .port, .clients, .team, .box, .benefits {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,16 +110,9 @@ address {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  letter-spacing: 0.06em;
   border: none;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
   margin-top: 30px;
 }
 
@@ -130,20 +123,17 @@ address {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  gap: 10px;
   letter-spacing: 0.06em;
+  gap: 10px;
 }
 
 .footer-google {
   font-weight: normal;
   line-height: 1.7142;
-  color: var(--white);
+  color: #ffffff;
   text-decoration: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -153,7 +143,7 @@ address {
   margin-bottom: 9px;
 }
 .item-footer:hover {
-  color: var(--blue);
+  color: #2196F3;
 }
 
 .is-hidden {
@@ -181,7 +171,7 @@ address {
 }
 
 .web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1923;
@@ -189,7 +179,7 @@ address {
 }
 
 .studio-white {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1923;
@@ -322,8 +312,6 @@ address {
 .benefits__title {
   font-size: 14px;
   line-height: 1.1428;
-  font-size: 14px;
-  line-height: 1.1428;
   margin-bottom: 10px;
 }
 .benefits__icon {
@@ -344,7 +332,7 @@ address {
   text-align: center;
 }
 
-.box .box__trumb, .port .box__trumb, .team .box__trumb {
+.box .box__trumb {
   position: relative;
 }
 .box__text {
@@ -418,7 +406,7 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--icon-fill);
+  color: #AFB1B8;
   border-radius: 50%;
   background-color: transparent;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -439,9 +427,6 @@ address {
 .clients__link {
   width: 100%;
   height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   color: #AFB1B8;
@@ -466,8 +451,9 @@ address {
 }
 
 .footer-text {
-  font-weight: normal;
-  line-height: 0.5833;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142857143;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -591,7 +577,7 @@ address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  color: var(--gray);
+  color: #757575;
 }
 
 .item-portfolio-link {
@@ -742,9 +728,10 @@ address {
 }
 
 .modal-title {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: calc 1.15;
+  line-height: 1.15;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -787,6 +774,7 @@ address {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 12px 16px;
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
   line-height: 1.3333333333;
   letter-spacing: 0.01em;
@@ -798,7 +786,7 @@ address {
   color: #303030;
 }
 .textarea:focus, .textarea:hover {
-  border-color: var(--blue);
+  border-color: #2196F3;
 }
 
 .input-label {
@@ -814,7 +802,7 @@ address {
   margin-bottom: 4px;
   font-weight: 400;
   letter-spacing: 0.01em;
-  color: var(--gray);
+  color: #757575;
 }
 
 .modal-icon {
@@ -863,7 +851,7 @@ address {
   fill: #ffffff;
 }
 
-.modal-field, .button-footer, .team-icon, .team-icon__link, .clients__link, .input-flex, .button-list, .check-text span {
+.modal-field, .team-icon, .team-icon__link, .input-flex, .button-list, .check-text span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

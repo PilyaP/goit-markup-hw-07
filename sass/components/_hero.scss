@@ -4,10 +4,7 @@
     
     
     .hero {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.3636; 
-        letter-spacing: 0.06em;
+        @include font(900, 44px, 1.3636, 0.06em);   
         text-transform: uppercase;
         color: $white;
         width: 696px;

@@ -8,8 +8,7 @@
 
 .section-title-text
 {
-font-size: 36px;
-line-height: 1.1666;
+    @include font(null, 36px, 1.1666, null);   
 margin-bottom: 50px;
 text-align: center;
 }
@@ -22,8 +21,7 @@ text-align: center;
 
 }
 &__text {
-    font-weight: 700;
-    line-height: calc(16 / 14);
+    @include font(700, null, calc(16 / 14), null);   
     text-align: center;
     text-transform: uppercase;
     color: $white;

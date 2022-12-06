@@ -7,8 +7,7 @@
     &__link {
         width: 100%;
         height: 100%;
-        @extend .modal-field;
-        align-items: center;
+        @extend .display;
         border: 1px solid $icon-fill;
         border-radius: 4px;
         color: $icon-fill; 
@@ -30,8 +29,7 @@
 
 
 .client-title {
-    font-size: 36px;
-    line-height: 1.1666;
+    @include font(null, 36px, 1.1666, null);   
     text-align: center;
     margin-bottom: 50px;
     
