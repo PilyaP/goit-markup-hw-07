@@ -624,7 +624,7 @@ address {
 
 .img-port {
   padding: 20px 24px;
-  border: 1px solid var(--border);
+  border: 1px solid #EEEEEE;
   border-top: none;
 }
 
@@ -707,6 +707,9 @@ address {
 .modal-close {
   position: absolute;
   top: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   right: 8px;
   width: 30px;
   height: 30px;

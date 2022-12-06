@@ -1,9 +1,5 @@
 
-   
-    .portfolio-title {
-        @include font(null, 18px, 2, 0.06em);
-    margin-bottom: 4px;
-    }
+
     .portfolio-paragraf {
         @include font(400, 16px, 1.875, null);
         color: $gray; 
@@ -55,7 +51,7 @@
     .img-port
     {
         padding: 20px 24px;
-        border: 1px solid var(--border);
+        border: 1px solid $border;
         border-top: none;
     }
     

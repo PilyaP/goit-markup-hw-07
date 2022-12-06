@@ -3,16 +3,7 @@
     
     
     
-    .hero {
-        @include font(900, 44px, 1.3636, 0.06em);   
-        text-transform: uppercase;
-        color: $white;
-        width: 696px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        margin-bottom: 30px;
-    }
+
     .color-section
     {
         padding: 200px 0;
