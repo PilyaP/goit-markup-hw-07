@@ -41,16 +41,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         right: 8px;
         width: 30px;
         height: 30px;
-        background-color: var(--white);
+        background-color: $white;
         border-radius: 50%;;
         cursor: pointer;
-        border: 1px solid var(--close);
+        border: 1px solid $close;
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
             color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             &:hover,
             &:focus {
-                border: 1px solid var(--blue);
-                color: var(--blue);
+                border: 1px solid $blue;
+                color: $blue;
         }
     }
     
@@ -59,7 +59,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 &:hover,
 &:focus
 {
-    fill: var(--blue);
+    fill: $blue;
 }
     }
 
