@@ -5,8 +5,9 @@
 
 .box
 {
+
     @extend .gap;
-    .box__trumb
+    &__trumb
 {position: relative;
 
 }
@@ -31,10 +32,6 @@
 &__item
 {
     width: calc((100% - 60px)/3);
-}
-&__pad
-{
-padding-top: 0;
 }
 }
 
